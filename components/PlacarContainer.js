@@ -14,13 +14,14 @@ export default class PlacarContainer extends Component {
   }
 
   render() {
+    const { partida, time1, time2 } = this.props;
     return (
       <View style={{flex: 1, flexDirection: 'column'}}>
-      <Time nome={this.props.time1.nome}>
+      <Time nome={time1.nome}>
       </Time>
-      <Partida estadio={this.props.partida.estadio}>
+      <Partida {...partida}>
       </Partida>
-      <Time nome={this.props.time2.nome}>
+      <Time nome={time2.nome}>
       </Time>
       </View>
     );

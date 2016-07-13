@@ -31,7 +31,7 @@ class trucoCounter extends Component {
   render() {
     return (
       <View>
-      <PlacarContainer partida={dados.partida} time1={dados.time1} time2={dados.time2} />
+      <PlacarContainer {...dados} />
       </View>
     );
   }
