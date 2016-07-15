@@ -17,10 +17,10 @@ export default class PlacarContainer extends Component {
     const { partida, time1, time2 } = this.props;
     return (
       <View style={{flex: 1, flexDirection: 'column'}}>
-      <Time nome={time1.nome}>
-      </Time>
       <Partida {...partida}>
       </Partida>
+      <Time nome={time1.nome}>
+      </Time>
       <Time nome={time2.nome}>
       </Time>
       </View>

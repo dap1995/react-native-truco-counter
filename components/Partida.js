@@ -9,9 +9,9 @@ export default class Partida extends Component {
   render(){
     return (
       <View>
-        <Text style={{textAlign: 'center', fontSize: 60}}>{this.props.estadio}</Text>
+        <Text style={{textAlign: 'center', fontSize: 60,  backgroundColor: '#8c6cff'}}>{this.props.estadio}</Text>
         <View>
-          <Text>Data</Text>
+          <Text style={{textAlign: 'center', fontSize: 50, backgroundColor: '#8c6cff'}}>{this.props.data}</Text>
         </View>
       </View>
     );

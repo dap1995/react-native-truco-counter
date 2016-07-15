@@ -16,14 +16,14 @@ import PlacarContainer from './components/PlacarContainer'
 
 const dados = {
   partida: {
-    estadio: "Casa do joao",
-    data: "01/08/2016",
+    estadio: "Truco - Placar",
+    data: "13/07/2016",
   },
   time1: {
-    nome: "Jorge",
+    nome: "Nós",
   },
   time2: {
-    nome: "Francisco",
+    nome: "Eles",
   }
 };
 
